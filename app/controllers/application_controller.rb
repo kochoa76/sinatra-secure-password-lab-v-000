@@ -46,7 +46,7 @@ class ApplicationController < Sinatra::Base
         session[:user_id] = @user.id
         erb :"/account"
       end
-    end 
+    end
   end
 
   get "/failure" do
